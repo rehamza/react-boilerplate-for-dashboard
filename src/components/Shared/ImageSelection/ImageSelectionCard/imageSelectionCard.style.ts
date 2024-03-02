@@ -1,0 +1,42 @@
+export const style = {
+  mainContainer: {
+    width: '100%',
+    height: '260px',
+  },
+  imageContainer: {
+    width: '240px',
+    height: '240px',
+    position: 'relative',
+    overflow: 'hidden',
+    bgcolor: 'black',
+  },
+  overlayContainer: {
+    width: 40,
+    height: 40,
+    left: 'calc(100% - 50px)',
+    top: 10,
+    position: 'absolute',
+    background: 'rgba(255, 255, 255, 0.80)',
+    borderRadius: 20,
+  },
+  editIconContainer: {
+    width: 40,
+    height: 40,
+    left: 0,
+    top: 0,
+    position: 'absolute',
+    justifyContent: 'center',
+    alignItems: 'center',
+    display: 'flex',
+  },
+  typography: {
+    color: '#5B5D5E',
+    fontSize: 14,
+    wordWrap: 'break-word',
+    bottom: 0,
+    width: '100%',
+    background: 'rgba(255, 255, 255, 0.8)',
+    textAlign: 'left',
+    padding: '8px 0',
+  },
+};
